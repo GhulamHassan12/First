@@ -24,6 +24,9 @@ public class App
     	driver.get("https://www.instagram.com/");
     	driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/section[1]/main[1]/article[1]/div[2]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/label[1]/input[1]")).sendKeys("chahatiqbal44@yahoo.com");
     	
+    	driver.close();
+    	driver.quit();
+    	
     	
     	
     	
